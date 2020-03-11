@@ -8,11 +8,14 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Object Toast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,4 +36,7 @@ public class MainActivity extends AppCompatActivity {
         Intent cad = new Intent(this, CasdastroProdutoActivity.class);
         startActivity(cad);
     }
+
+
 }
+
